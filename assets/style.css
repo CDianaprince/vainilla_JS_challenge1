@@ -18,7 +18,8 @@ body{
   align-items: center;
   padding-top: 20%;
   padding-left: 15%;
-  transition: all .07s ease;
+  text-shadow: 0 0 .5rem black;
+  cursor:default
 }
 .key{
   display: flex;
@@ -28,8 +29,15 @@ body{
   padding: 1rem;
   background: rgba(0,0,0,0.4);
   border-radius: 4px;
+  transition: all .07s ease;
+  text-shadow: 0 0 .5rem black;
   
-  
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
 }
 
 .letter{
